@@ -1,0 +1,25 @@
+.footer {
+  background: linear-gradient(
+    90deg,
+    #66ccef 0%,
+    #42b2d9 20.96%,
+    #31a6d0 43.54%,
+    #158fbd 75%,
+    #0086b5 100%
+  );
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer img {
+  width: 26%;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b8b8b8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}

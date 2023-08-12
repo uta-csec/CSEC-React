@@ -10,10 +10,11 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 1rem;
 }
 
 .footer img {
-  width: 26%;
+  width: 16%;
 }
 
 .footer p {

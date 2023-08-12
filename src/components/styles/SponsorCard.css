@@ -1,0 +1,82 @@
+.flipping-card {
+  position: relative;
+  width: 22vw;
+  height: 22vw;
+  perspective: 1000px;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.flipping-card > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+  border-radius: 10px;
+}
+
+.flipping-card .card-front {
+  transform: rotateY(0);
+}
+
+.flipping-card .card-back {
+  transform: rotateY(180deg);
+}
+
+.flipping-card.flipped .card-front {
+  transform: rotateY(-180deg);
+}
+
+.flipping-card.flipped .card-back {
+  transform: rotateY(0);
+}
+
+.flipping-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.flipping-card .card-back {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flipping-card .card-back p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.flipping-card .card-back a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 575.98px) {
+  .flipping-card {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium Devices (Landscape Tablets and Small Desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media (min-width: 1200px) {
+}

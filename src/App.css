@@ -17,6 +17,15 @@
   font-weight: 400;
 }
 
+:root {
+  --font-size-default: 16px;
+  --font-size-extra-small: 14px;
+  --font-size-small: 16px;
+  --font-size-medium: 18px;
+  --font-size-large: 20px;
+  --font-size-extra-large: 22px;
+}
+
 /************ Default Css ************/
 * {
   margin: 0;

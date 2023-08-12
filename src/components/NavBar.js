@@ -80,15 +80,6 @@ export function NavBar() {
               Activities
             </Nav.Link>
             <Nav.Link
-              href="#sponsors"
-              className={
-                activeLink === "sponsors" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("projects")}
-            >
-              Sponsors
-            </Nav.Link>
-            <Nav.Link
               href="#calendar"
               className={
                 activeLink === "calendar" ? "active navbar-link" : "navbar-link"
@@ -96,6 +87,15 @@ export function NavBar() {
               onClick={() => onUpdateActiveLink("projects")}
             >
               Calendar
+            </Nav.Link>
+            <Nav.Link
+              href="#sponsors"
+              className={
+                activeLink === "sponsors" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("projects")}
+            >
+              Sponsors
             </Nav.Link>
           </Nav>
 

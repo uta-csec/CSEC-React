@@ -4,7 +4,8 @@
 }
 
 .officer-bx {
-  background: #121212;
+  background: #ffffff;
+  color: #3d4351;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -33,6 +34,11 @@
 .officer-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
+}
+
+.item img {
+  border: 3px solid #38b3dd;
+  border-radius: 50%;
 }
 
 .officer-slider .item a {

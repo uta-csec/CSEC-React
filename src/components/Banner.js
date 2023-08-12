@@ -1,60 +1,10 @@
-import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
+import TypeIt from "typeit-react";
 import headerImg from "../assets/img/michi.png";
 import "./styles/Banner.css";
 
 export function Banner() {
-  /* Use states */
-  const [loopNum, setLoopNum] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
-
-  // eslint-disable-next-line
-  const [index, setIndex] = useState(1);
-  const toRotate = ["Option 1", "Option 2", "Option 3"];
-  const period = 2000;
-
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => {
-      clearInterval(ticker);
-    };
-
-    // eslint-disable-next-line
-  }, [text]);
-
-  function tick() {
-    let i = loopNum % toRotate.length;
-    let fullText = toRotate[i];
-    let updatedText = isDeleting
-      ? fullText.substring(0, text.length - 1)
-      : fullText.substring(0, text.length + 1);
-
-    setText(updatedText);
-
-    if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2);
-    }
-
-    if (!isDeleting && updatedText === fullText) {
-      setIsDeleting(true);
-      setIndex((prevIndex) => prevIndex - 1);
-      setDelta(period);
-    } else if (isDeleting && updatedText === "") {
-      setIsDeleting(false);
-      setLoopNum(loopNum + 1);
-      setIndex(1);
-      setDelta(500);
-    } else {
-      setIndex((prevIndex) => prevIndex + 1);
-    }
-  }
-
   return (
     /* Banner section */
     <section className="banner" id="home">
@@ -68,16 +18,9 @@ export function Banner() {
             <span className="tagline">Welcome to CSEC</span>
 
             {/* Main banner header */}
-            <h1>
-              {`Displaying: `}
-              <span
-                className="txt-rotate"
-                dataperiod="1000"
-                data-rotate='[ "Option 1", "Option 2", "Option 3" ]'
-              >
-                <span className="wrap">{text}</span>
-              </span>
-            </h1>
+            <TypeIt element={"h1"} className="ban">
+              This will be typed in a `span` element!
+            </TypeIt>
 
             {/* Main text */}
             <p>

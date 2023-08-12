@@ -4,6 +4,7 @@ import { Banner } from "./components/Banner";
 import { Footer } from "./components/Footer";
 import { NavBar } from "./components/NavBar";
 import { Officers } from "./components/Officers";
+import { Sponsors } from "./components/Sponsors";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <Officers />
       <Activities />
+      <Sponsors />
       <Footer />
     </div>
   );

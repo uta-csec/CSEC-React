@@ -1,0 +1,47 @@
+.sponsors {
+  display: flex;
+  background-color: white;
+  color: black;
+  padding: 20vh 0;
+}
+
+.sponsors-box {
+  text-align: center;
+}
+
+.sponsors-box h2 {
+  font-size: 76px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sponsors-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 575.98px) {
+  .sponsors-cards {
+    flex-direction: column;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium Devices (Landscape Tablets and Small Desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media (min-width: 1200px) {
+}

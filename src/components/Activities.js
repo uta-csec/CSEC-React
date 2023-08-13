@@ -1,6 +1,8 @@
 // bootstrap
 import { Col, Container, Row, Tab, Nav, Card } from "react-bootstrap";
 import {
+  Flag,
+  Globe,
   Joystick,
   Lightbulb,
   Mic,
@@ -155,14 +157,15 @@ export function Activities() {
                         <Card.Title>
                           <div className="icon-container">
                             <div className="icon">
-                              <Joystick size={22} />
+                              <Globe size={22} />
                             </div>
-                            <div className="icon-text">Workshops</div>
+                            <div className="icon-text">Up-to-date</div>
                           </div>
                         </Card.Title>
-                        Beyond bytes and codes, join our Game Night to share
-                        laughter, forge friendships, and unwind. Discover the
-                        human side of cybersecurity enthusiasts.
+                        We do our best to bring relevant and industry-standard
+                        topics to the forefront of our workshops, ensuring that
+                        participants gain valuable insights and skills in
+                        today's market.
                       </Card.Body>
                     </Card>
                   </div>
@@ -170,13 +173,43 @@ export function Activities() {
 
                 {/* Pane 3 */}
                 <Tab.Pane eventKey="third">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
+                  <p></p>
+
+                  <Card className="activity-card">
+                    <Card.Body>
+                      <Card.Title>
+                        <div className="icon-container">
+                          <div className="icon">
+                            <Flag size={22} />
+                          </div>
+                          <div className="icon-text">What's CTF?</div>
+                        </div>
+                      </Card.Title>
+                      Capture The Flag (CTF) is an engaging and hands-on
+                      cybersecurity challenge that simulates real-world
+                      scenarios. Participants navigate through puzzles,
+                      vulnerabilities, and security tasks to find hidden "flags"
+                      – secret codes or tokens – within digital environments.
+                      CTFs encompass various domains like cryptography, web
+                      exploitation, reverse engineering, and more. These
+                      challenges offer a dynamic platform for honing practical
+                      skills, problem-solving, teamwork, and quick thinking,
+                      making them an essential component of cybersecurity
+                      training and fostering a deeper understanding of digital
+                      defense strategies.
+                      <br /> <br />
+                      For more information about CTF or how to form part of our
+                      CTF team, join our{" "}
+                      <a
+                        href="https://discord.gg/8YuGKecGU4"
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{ textDecoration: "none" }}
+                      >
+                        Discord
+                      </a>
+                    </Card.Body>
+                  </Card>
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>

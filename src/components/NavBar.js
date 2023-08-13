@@ -39,7 +39,7 @@ export function NavBar() {
       <Container>
         {/* Logo */}
         <Navbar.Brand href="/">
-          <img src={logo} alt="Logo" />
+          <img className="logo-img" src={logo} alt="Logo" />
         </Navbar.Brand>
 
         {/* Toggle btn */}

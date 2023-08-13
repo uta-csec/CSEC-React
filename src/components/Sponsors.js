@@ -12,10 +12,11 @@ export function Sponsors() {
           <Col>
             <div className="sponsors-box">
               <h1>
-                Our <span class="beloved">beloved</span> sponsors
+                Our <span className="beloved">beloved</span> sponsors
               </h1>
               <p>
-                A big thanks to all our <span class="beloved">sponsors</span>!
+                A big thanks to all our{" "}
+                <span className="beloved">sponsors</span>!
               </p>
               <div className="sponsors-cards">
                 {/* UTA */}

@@ -18,19 +18,24 @@ export function Banner() {
             <span className="tagline">Welcome to CSEC</span>
 
             {/* Main banner header */}
-            <TypeIt element={"h1"} className="ban">
-              This will be typed in a `span` element!
+            <TypeIt element={"h1"} className="banner-title">
+              Relax, connect, and enhance cybersecurity!
             </TypeIt>
 
             {/* Main text */}
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              Become part of a community that helps members to navigate through
+              diverse cybersecurity paths, make new friends, and gather
+              significant experiences.
             </p>
 
             {/* Join btn */}
-            <button onClick={() => console.log("connect")}>
+            <button
+              onClick={() => {
+                const newTab = window.open("http://tiny.cc/JOINCSEC", "_blank");
+                newTab.focus();
+              }}
+            >
               Become a member <ArrowRightCircle size={25} />
             </button>
           </Col>

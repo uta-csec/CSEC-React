@@ -1,6 +1,12 @@
 // bootstrap
 import { Col, Container, Row, Tab, Nav, Card } from "react-bootstrap";
-import { PersonCircle } from "react-bootstrap-icons";
+import {
+  Joystick,
+  Lightbulb,
+  Mic,
+  People,
+  Terminal,
+} from "react-bootstrap-icons";
 import "./styles/Activities.css";
 
 export function Activities() {
@@ -12,14 +18,14 @@ export function Activities() {
         <Row>
           <Col>
             {/* Header and description */}
-            <h2>Participate In Our Activities</h2>
+            <div className="activities-header">
+              <h2>Participate In Our Activities</h2>
 
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+              <p>
+                CSEC tries to host at least one activity per week. Check our
+                Discord server or calendar for more information!
+              </p>
+            </div>
 
             {/* Tabs */}
             <Tab.Container id="activity-tabs" defaultActiveKey="first">
@@ -51,44 +57,55 @@ export function Activities() {
                 {/* Pane 1 */}
                 <Tab.Pane eventKey="first">
                   <div>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
-                    </p>
                     <div className="activity-cards">
+                      {/* General Meetings */}
+                      <Card className="activity-card">
+                        <Card.Body>
+                          <Card.Title>
+                            <div className="icon-container">
+                              <div className="icon">
+                                <People size={22} />
+                              </div>
+                              <div className="icon-text">Gen. Meetings</div>
+                            </div>
+                          </Card.Title>
+                          Interact with other students interested in
+                          Cybersecurity. Explore trends, ideas, and potential
+                          collaborations in a vibrant inclusive environment.
+                        </Card.Body>
+                      </Card>
+
                       {/* Speakers */}
                       <Card className="activity-card">
                         <Card.Body>
                           <Card.Title>
                             <div className="icon-container">
-                              <PersonCircle className="icon" size={29} />
-                              <div style={{ padding: "0 5px" }}>Speakers</div>
+                              <div className="icon">
+                                <Mic size={22} />
+                              </div>
+                              <div className="icon-text">Speakers</div>
                             </div>
                           </Card.Title>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
+                          Engage with industry professionals who share insights,
+                          advice, and experiences. Elevate your understanding in
+                          cybersecurity and gain valuable guidance.
                         </Card.Body>
                       </Card>
 
-                      {/* Speakers */}
+                      {/* Game Nights */}
                       <Card className="activity-card">
                         <Card.Body>
                           <Card.Title>
-                            <PersonCircle /> Speakers
+                            <div className="icon-container">
+                              <div className="icon">
+                                <Joystick size={22} />
+                              </div>
+                              <div className="icon-text">Game Nights</div>
+                            </div>
                           </Card.Title>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </Card.Body>
-                      </Card>
-
-                      {/* Speakers */}
-                      <Card className="activity-card">
-                        <Card.Body>
-                          <Card.Title>
-                            <PersonCircle /> Speakers
-                          </Card.Title>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
+                          Beyond bytes and codes, join our Game Night to share
+                          laughter, forge friendships, and unwind. Discover the
+                          human side of cybersecurity enthusiasts.
                         </Card.Body>
                       </Card>
                     </div>
@@ -97,13 +114,58 @@ export function Activities() {
 
                 {/* Pane 2 */}
                 <Tab.Pane eventKey="second">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
+                  <div className="activity-cards">
+                    {/* Beginner friendly */}
+                    <Card className="activity-card">
+                      <Card.Body>
+                        <Card.Title>
+                          <div className="icon-container">
+                            <div className="icon">
+                              <Lightbulb size={22} />
+                            </div>
+                            <div className="icon-text">Entry-level</div>
+                          </div>
+                        </Card.Title>
+                        Participants do not need prior experience to attend our
+                        workshops. We do our best to ensure everyone attending
+                        can grasp the content and participate actively.
+                      </Card.Body>
+                    </Card>
+
+                    {/*  */}
+                    <Card className="activity-card">
+                      <Card.Body>
+                        <Card.Title>
+                          <div className="icon-container">
+                            <div className="icon">
+                              <Terminal size={22} />
+                            </div>
+                            <div className="icon-text">Hands-on</div>
+                          </div>
+                        </Card.Title>
+                        We design our workshops so attendants can follow along
+                        with the presentation. Our goal is to make the learning
+                        experience frictionless and inclusive for everyone.
+                      </Card.Body>
+                    </Card>
+
+                    {/* Game Nights */}
+                    <Card className="activity-card">
+                      <Card.Body>
+                        <Card.Title>
+                          <div className="icon-container">
+                            <div className="icon">
+                              <Joystick size={22} />
+                            </div>
+                            <div className="icon-text">Workshops</div>
+                          </div>
+                        </Card.Title>
+                        Beyond bytes and codes, join our Game Night to share
+                        laughter, forge friendships, and unwind. Discover the
+                        human side of cybersecurity enthusiasts.
+                      </Card.Body>
+                    </Card>
+                  </div>
                 </Tab.Pane>
 
                 {/* Pane 3 */}

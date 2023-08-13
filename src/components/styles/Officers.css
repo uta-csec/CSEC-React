@@ -12,17 +12,8 @@
   margin-top: -60px;
 }
 
-.officers h2 {
-  font-size: 45px;
-  font-weight: 700;
-}
-
-.officer p {
-  color: #b8b8b8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 14px 0 75px 0;
+.officer-bx h2 {
+  font-size: 4rem;
 }
 
 .officer-slider {
@@ -56,4 +47,26 @@
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+@media (max-width: 575.98px) {
+  .officer-bx h2 {
+    font-size: 3rem;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium Devices (Landscape Tablets and Small Desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media (min-width: 1200px) {
 }

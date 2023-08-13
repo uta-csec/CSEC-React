@@ -6,23 +6,32 @@
 }
 
 .activities h2 {
-  font-size: 45px;
+  font-size: var(--font-size-extra-large);
   font-weight: 700;
   text-align: center;
 }
 
 .activities p {
-  color: #b8b8b8;
+  color: #f8f8ff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
-  text-align: center;
+  text-align: left;
   width: 56%;
 }
 
+.activities-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.activities-header p {
+  margin: none;
+}
+
 .activity-cards {
-  border: 1px solid white;
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -30,8 +39,9 @@
 }
 
 .activity-card {
-  margin: 1rem;
+  margin: 1rem 0.5rem;
   padding: 1rem;
+  width: 80rem;
 }
 
 .icon-container {
@@ -39,8 +49,24 @@
   flex-direction: row;
 }
 
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #37b3dd;
+  padding: 0.6rem;
+  border-radius: 20%;
+  border: 0;
+}
+
+.icon-text {
+  padding: 0 5px;
+  margin-top: 0.5rem;
+}
+
 .activities .nav.nav-pills {
-  width: 72%;
+  width: 85%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -163,8 +189,20 @@
 
 /* Extra Small Devices (Phones) */
 @media (max-width: 575.98px) {
+  .activities h2 {
+    font-size: var(--font-size-large);
+  }
   .activity-cards {
     flex-direction: column;
+  }
+  .activities .nav.nav-pills .nav-link {
+    font-size: 0.8rem;
+  }
+  .icon-text {
+    margin-top: 0.7rem;
+  }
+  .activity-card {
+    width: fit-content;
   }
 }
 

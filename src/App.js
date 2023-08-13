@@ -1,6 +1,7 @@
 import "./App.css";
 import { Activities } from "./components/Activities";
 import { Banner } from "./components/Banner";
+import Calendar from "./components/Calendar";
 import { Footer } from "./components/Footer";
 import { NavBar } from "./components/NavBar";
 import { Officers } from "./components/Officers";
@@ -15,6 +16,7 @@ function App() {
       <Banner />
       <Officers />
       <Activities />
+      <Calendar />
       <Sponsors />
       <Footer />
     </div>

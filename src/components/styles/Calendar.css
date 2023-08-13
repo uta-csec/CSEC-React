@@ -1,0 +1,56 @@
+.calendar-section {
+  background-color: black;
+  padding: 20vh 0;
+  border: 1px solid white;
+}
+
+.calendar-section h2 {
+  font-size: var(--font-size-extra-large);
+  font-weight: 700;
+  text-align: center;
+}
+
+.calendar-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.calendar-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #37b3dd;
+  padding: 0.3rem;
+  border-radius: 20%;
+  border: 0;
+  height: fit-content;
+}
+
+.calendar-text {
+  padding: 0 5px;
+  margin-top: 0.25rem;
+}
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 575.98px) {
+  .calendar-section h2 {
+    font-size: var(--font-size-large);
+  }
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium Devices (Landscape Tablets and Small Desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media (min-width: 1200px) {
+}

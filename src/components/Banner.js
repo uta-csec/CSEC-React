@@ -49,6 +49,7 @@ export function Banner() {
           </Col>
         </Row>
       </Container>
+      <div id="officers"></div>
     </section>
   );
 }

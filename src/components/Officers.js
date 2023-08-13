@@ -44,7 +44,7 @@ export function Officers() {
 
   return (
     // carousel section
-    <section className="officers" id="officers">
+    <section className="officers">
       {/* Carousel main container */}
       <Container>
         <Row>

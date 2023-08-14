@@ -5,7 +5,6 @@ import {
   Globe,
   Joystick,
   Lightbulb,
-  Mic,
   People,
   Rocket,
   Terminal,

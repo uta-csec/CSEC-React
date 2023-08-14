@@ -102,7 +102,13 @@ export function NavBar() {
           {/* Social media links */}
           <span className="navbar-text">
             {/* Join btn */}
-            <button className="vvd">
+            <button
+              className="vvd"
+              onClick={() => {
+                const newTab = window.open("http://tiny.cc/JOINCSEC", "_blank");
+                newTab.focus();
+              }}
+            >
               <span>Join CSEC</span>
             </button>
           </span>

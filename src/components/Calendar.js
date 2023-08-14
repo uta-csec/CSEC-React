@@ -9,15 +9,21 @@ export default function Calendar() {
       <Container>
         <Row>
           <Col>
-            <div>
-              <h2>Don't miss our activities!</h2>
-              <div className="calendar-info">
-                <img src={calendar} alt="Meeting pic" />
-                <Card>
+            <div className="calendar-info">
+              <img src={calendar} alt="Meeting pic" />
+              <div>
+                <h2>Don't miss our activities!</h2>
+                <Card
+                  style={{
+                    height: "fit-content",
+                    padding: "1rem 0",
+                    marginTop: "8%",
+                  }}
+                >
                   <Card.Body>
                     <div className="calendar-card">
                       <div className="calendar-icon">
-                        <Calendar2Heart size={18} />
+                        <Calendar2Heart size={20} />
                       </div>
                       <div className="calendar-text">
                         We will update this section on a weekly basis. So, be

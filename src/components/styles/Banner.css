@@ -92,10 +92,10 @@
     font-size: 40px;
   }
   .banner p {
-    font-size: var(--font-size-extra-small);
+    font-size: var(--font-size-small);
   }
   .banner button {
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-small);
   }
 
   .banner img {

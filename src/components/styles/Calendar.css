@@ -1,8 +1,21 @@
 .calendar-section {
   background-color: black;
   min-height: 100vh;
-  padding: 20vh 0;
+  padding: 15vh 0;
   border: 1px solid white;
+}
+
+.calendar-info {
+  display: flex;
+  flex-direction: row;
+  padding: 5vh 0;
+}
+
+.calendar-info img {
+  width: 25vw;
+  height: auto;
+  margin: 0 3rem;
+  border-radius: 1rem;
 }
 
 .calendar-section h2 {
@@ -37,6 +50,10 @@
 @media (max-width: 575.98px) {
   .calendar-section h2 {
     font-size: var(--font-size-large);
+  }
+
+  .calendar-info img {
+    display: none;
   }
 }
 

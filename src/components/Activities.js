@@ -7,6 +7,7 @@ import {
   Lightbulb,
   Mic,
   People,
+  Rocket,
   Terminal,
   Trophy,
 } from "react-bootstrap-icons";
@@ -83,12 +84,12 @@ export function Activities() {
                         <Card.Title>
                           <div className="icon-container">
                             <div className="icon">
-                              <Mic size={22} />
+                              <Rocket size={22} />
                             </div>
                             <div className="icon-text">Speakers</div>
                           </div>
                         </Card.Title>
-                        Engage with industry professionals who share insights,
+                        Learn from industry professionals who share insights,
                         advice, and experiences. Elevate your understanding in
                         cybersecurity and gain valuable guidance.
                       </Card.Body>

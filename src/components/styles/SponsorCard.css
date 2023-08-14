@@ -57,6 +57,10 @@
   text-decoration: none;
 }
 
+.card-back p {
+  color: black;
+}
+
 /* Extra Small Devices (Phones) */
 @media (max-width: 575.98px) {
   .flipping-card {

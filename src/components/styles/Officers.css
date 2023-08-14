@@ -16,6 +16,10 @@
   font-size: 4rem;
 }
 
+.officer-bx p {
+  font-size: var(--font-size-small);
+}
+
 .officer-slider {
   width: 80%;
   margin: 0 auto;

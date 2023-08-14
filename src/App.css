@@ -18,10 +18,10 @@
 }
 
 :root {
-  --font-size-default: 16px;
-  --font-size-extra-small: 14px;
-  --font-size-small: 16px;
-  --font-size-medium: 18px;
+  --font-size-default: 1rem;
+  --font-size-extra-small: 0.5rem;
+  --font-size-small: 1rem;
+  --font-size-medium: 2rem;
   --font-size-large: 3rem;
   --font-size-extra-large: 4rem;
 }

@@ -1,6 +1,7 @@
 import { Col, Container, Row, Card } from "react-bootstrap";
 import "./styles/Calendar.css";
-import { BookmarkPlus } from "react-bootstrap-icons";
+import { Calendar2Heart } from "react-bootstrap-icons";
+import calendar from "../assets/img/officers/calendar.jpg";
 
 export default function Calendar() {
   return (
@@ -10,12 +11,13 @@ export default function Calendar() {
           <Col>
             <div>
               <h2>Don't miss our activities!</h2>
-              <div>
+              <div className="calendar-info">
+                <img src={calendar} alt="Meeting pic" />
                 <Card>
                   <Card.Body>
                     <div className="calendar-card">
                       <div className="calendar-icon">
-                        <BookmarkPlus size={18} />
+                        <Calendar2Heart size={18} />
                       </div>
                       <div className="calendar-text">
                         We will update this section on a weekly basis. So, be

@@ -1,5 +1,6 @@
 .calendar-section {
   background-color: black;
+  min-height: 100vh;
   padding: 20vh 0;
   border: 1px solid white;
 }

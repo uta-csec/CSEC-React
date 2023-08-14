@@ -12,7 +12,7 @@
 
 .activities p {
   color: #f8f8ff;
-  font-size: 18px;
+  font-size: var(--font-size-small);
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;

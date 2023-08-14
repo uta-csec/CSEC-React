@@ -1,19 +1,26 @@
 .sponsors {
   display: flex;
-  background-color: white;
-  color: black;
-  padding: 20vh 0;
+  background-color: black;
 }
 
 .sponsors-box {
   text-align: center;
+  color: white;
+  padding: 20vh 0;
 }
 
-.sponsors-box h2 {
-  font-size: 76px;
+.sponsors-box h1 {
   color: white;
+  font-size: var(--font-size-extra-large);
   font-weight: 700;
-  text-align: center;
+}
+
+.sponsors-box p {
+  font-size: var(--font-size-medium);
+}
+
+.beloved {
+  color: #ca002c;
 }
 
 .sponsors-cards {
@@ -21,12 +28,21 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
+  align-items: center;
 }
 
 /* Extra Small Devices (Phones) */
 @media (max-width: 575.98px) {
   .sponsors-cards {
     flex-direction: column;
+  }
+
+  .sponsors-box h1 {
+    font-size: var(--font-size-large);
+  }
+
+  .sponsors-box p {
+    font-size: 1.5rem;
   }
 }
 

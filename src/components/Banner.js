@@ -19,7 +19,7 @@ export function Banner() {
 
             {/* Main banner header */}
             <TypeIt element={"h1"} className="banner-title">
-              Relax, connect, and enhance cybersecurity!
+              Relax, connect, and enhance cybersecurity!!
             </TypeIt>
 
             {/* Main text */}

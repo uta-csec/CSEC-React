@@ -16,7 +16,6 @@ function App() {
       <Banner />
       <Officers />
       <Activities />
-      <Sponsors />
       <Calendar />
       <Sponsors />
       <Footer />

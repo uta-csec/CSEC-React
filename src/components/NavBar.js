@@ -12,7 +12,6 @@ export function NavBar() {
   /* Hooks */
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
-
   /* Scroll settings */
   useEffect(() => {
     function onScroll() {
@@ -43,7 +42,12 @@ export function NavBar() {
         </Navbar.Brand>
 
         {/* Toggle btn */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={() => {
+            setScrolled(true);
+          }}
+        >
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
 

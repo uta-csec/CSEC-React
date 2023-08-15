@@ -105,7 +105,7 @@ export function Activities() {
                             <div className="icon-text">Game Nights</div>
                           </div>
                         </Card.Title>
-                        Beyond bytes and codes, join our Game Night to share
+                        Beyond bytes and codes, join our Game Nights to share
                         laughter, forge friendships, and unwind. Discover the
                         human side of cybersecurity enthusiasts.
                       </Card.Body>

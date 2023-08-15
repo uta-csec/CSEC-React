@@ -1,8 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { SponsorCard } from "./SponsorCard";
 import "./styles/Sponsors.css";
-import UTA from "../assets/img/uta.png";
-import ISACA from "../assets/img/isaca.png";
+import UTA from "../assets/img/sponsors/uta.png";
+import ISACA from "../assets/img/sponsors/isaca.png";
 
 export function Sponsors() {
   return (

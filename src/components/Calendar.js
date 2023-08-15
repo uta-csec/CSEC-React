@@ -28,7 +28,7 @@ export default function Calendar() {
                       <div className="calendar-text">
                         We will update this section on a weekly basis. So, be
                         sure to check back regularly for new activities and
-                        learning opportunities
+                        learning opportunities.
                       </div>
                     </div>
                   </Card.Body>

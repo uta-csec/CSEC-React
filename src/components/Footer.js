@@ -35,7 +35,7 @@ export function Footer() {
                 <Twitter className="myIcon" />
               </a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>© 2023 CSEC</p>
           </Col>
         </Row>
       </Container>

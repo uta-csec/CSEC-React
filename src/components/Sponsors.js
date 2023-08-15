@@ -18,22 +18,20 @@ export function Sponsors() {
                 A big thanks to all our
                 <span className="beloved">sponsors</span>!
               </p>
-              {/* 
+
               <div className="sponsors-cards">
-                
                 <SponsorCard
                   frontImage={UTA}
                   backText="UTA text description"
                   link="https://www.uta.edu/academics/schools-colleges/engineering"
                 />
-                
+
                 <SponsorCard
                   frontImage={ISACA}
                   backText="ISACA text description"
                   link="https://www.isaca.org"
                 />
               </div>
-              */}
             </div>
           </Col>
         </Row>

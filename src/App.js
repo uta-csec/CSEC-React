@@ -17,6 +17,7 @@ function App() {
       <Officers />
       <Activities />
       <Calendar />
+      <Calendar />
       <Sponsors />
       <Footer />
     </div>

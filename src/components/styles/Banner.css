@@ -83,8 +83,8 @@
   border-right: 0.08em solid #666;
 }
 
-/* Extra Small Devices (Phones) */
-@media (max-width: 575.98px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .banner {
     padding: 155px 15px 165px 15px;
   }
@@ -103,18 +103,36 @@
   }
 }
 
-/* Small Devices (Tablets) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 }
 
-/* Medium Devices (Landscape Tablets and Small Desktops) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .banner-title {
+    font-size: var(--font-size-large);
+  }
+
+  .banner p {
+    font-size: var(--font-size-small);
+  }
+
+  .banner button {
+    font-size: var(--font-size-medium);
+  }
 }
 
-/* Large Devices (Desktops) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .banner-title {
+    font-size: var(--font-size-extra-large);
+  }
+
+  .banner button {
+    font-size: var(--font-size-medium);
+  }
 }
 
-/* Extra Large Devices (Large Desktops) */
-@media (min-width: 1200px) {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

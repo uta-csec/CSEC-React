@@ -192,9 +192,9 @@ export function Officers() {
                 <div className="item">
                   <img src={icon} alt="description" />
                   <h4>Event Coordinator</h4>
-                  <h5>Nicole</h5>
+                  <h5>Nicole Rodriguez</h5>
                   <a
-                    href="https://www.linkedin.com/"
+                    href="www.linkedin.com/in/nicoleceline"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -19,7 +19,11 @@ export function Footer() {
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               {/* Discord */}
-              <a href="https://discord.gg/8YuGKecGU4">
+              <a
+                href="https://discord.gg/8YuGKecGU4"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Discord className="myIcon" />
               </a>
               {/* eslint-disable-next-line */}

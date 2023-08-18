@@ -3,19 +3,19 @@
   background-color: black;
 }
 
-.sponsors-box {
+.container-box {
   text-align: center;
   color: white;
   padding: 20vh 0;
 }
 
-.sponsors-box h1 {
+.container-box h1 {
   color: white;
   font-size: var(--font-size-extra-large);
   font-weight: 700;
 }
 
-.sponsors-box p {
+.container-box p {
   font-size: var(--font-size-medium);
 }
 

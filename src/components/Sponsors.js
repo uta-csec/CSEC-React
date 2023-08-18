@@ -10,7 +10,7 @@ export function Sponsors() {
       <Container>
         <Row>
           <Col>
-            <div className="sponsors-box">
+            <div className="container-box">
               <h1>
                 Our <span className="beloved">beloved</span> sponsors
               </h1>

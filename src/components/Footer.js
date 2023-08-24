@@ -2,7 +2,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./styles/Footer.css";
 
 // assets
-import logo from "../assets/img/logo.png";
 import { Discord, Instagram, Linkedin, Twitter } from "react-bootstrap-icons";
 
 export function Footer() {
@@ -11,12 +10,25 @@ export function Footer() {
       <Container>
         <Row className="align-items-center">
           {/* Logo */}
-          <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+          <Col>
+            <h4>CSEC</h4>
+            <p>© 2023 CSEC</p>
+          </Col>
+
+          <Col>
+            <h4>Contact</h4>
+            <p>500 UTA Blvd, Room 438, Arlington, TX 76010</p>
+            <a
+              href="mailto:csec@gmail.com"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              csec@gmail.com
+            </a>
           </Col>
 
           {/* Social media */}
-          <Col size={12} sm={6} className="text-center text-sm-end">
+          <Col className="text-center">
+            <h4>Socials</h4>
             <div className="social-icon">
               {/* Discord */}
               <a
@@ -30,16 +42,13 @@ export function Footer() {
               <a href="#">
                 <Linkedin className="myIcon" />
               </a>
-              {/* eslint-disable-next-line */}
-              <a href="#">
+              <a href="https://www.instagram.com/uta.csec/">
                 <Instagram className="myIcon" />
               </a>
-              {/* eslint-disable-next-line */}
-              <a href="#">
+              <a href="https://twitter.com/UTA_CSEC">
                 <Twitter className="myIcon" />
               </a>
             </div>
-            <p>© 2023 CSEC</p>
           </Col>
         </Row>
       </Container>

@@ -16,7 +16,7 @@ export function Sponsors() {
               </h1>
               <p>
                 A big thanks to all our
-                <span className="beloved">sponsors</span>!
+                <span className="beloved"> sponsors</span>!
               </p>
 
               <div className="sponsors-cards">

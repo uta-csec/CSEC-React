@@ -8,14 +8,14 @@ export function Footer() {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
+        <Row className="align-items-center  flex-column flex-sm-row">
           {/* Logo */}
-          <Col>
+          <Col className="footer-section">
             <h4>CSEC</h4>
             <p>© 2023 CSEC</p>
           </Col>
 
-          <Col>
+          <Col className="footer-section">
             <h4>Contact</h4>
             <p>500 UTA Blvd, Room 438, Arlington, TX 76010</p>
             <a
@@ -27,7 +27,7 @@ export function Footer() {
           </Col>
 
           {/* Social media */}
-          <Col className="text-center">
+          <Col className="footer-section">
             <h4>Socials</h4>
             <div className="social-icon">
               {/* Discord */}

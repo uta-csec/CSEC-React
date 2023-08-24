@@ -27,7 +27,6 @@
 
 .social-icon {
   display: inline-flex;
-  margin-left: 14px;
 }
 
 .social-icon a {
@@ -70,4 +69,15 @@
     hue-rotate(346deg) brightness(95%) contrast(86%);
   transition: 0.3s ease-in-out;
   color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .footer-section {
+    padding: 2vh;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 }

@@ -1,8 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./styles/Footer.css";
+import constants from "../assets/constants.json";
 
 // assets
-import { Discord, Instagram, Linkedin, Twitter } from "react-bootstrap-icons";
+import { Discord, Instagram, Twitter } from "react-bootstrap-icons";
 
 export function Footer() {
   return (
@@ -17,12 +18,12 @@ export function Footer() {
 
           <Col className="footer-section">
             <h4>Contact</h4>
-            <p>500 UTA Blvd, Room 438, Arlington, TX 76010</p>
+            <p>{constants.contact.office}</p>
             <a
-              href="mailto:csec@gmail.com"
+              href={`mailto:${constants.contact.email}`}
               style={{ textDecoration: "none", color: "white" }}
             >
-              csec@gmail.com
+              {constants.contact.email}
             </a>
           </Col>
 
@@ -32,20 +33,24 @@ export function Footer() {
             <div className="social-icon">
               {/* Discord */}
               <a
-                href="https://discord.gg/8YuGKecGU4"
+                href={constants.socials.discord}
                 target="_blank"
                 rel="noreferrer"
               >
                 <Discord className="myIcon" />
               </a>
-              {/* eslint-disable-next-line */}
-              <a href="#">
-                <Linkedin className="myIcon" />
-              </a>
-              <a href="https://www.instagram.com/uta.csec/">
+              <a
+                href={constants.socials.instagram}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Instagram className="myIcon" />
               </a>
-              <a href="https://twitter.com/UTA_CSEC">
+              <a
+                href={constants.socials.twitter}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Twitter className="myIcon" />
               </a>
             </div>

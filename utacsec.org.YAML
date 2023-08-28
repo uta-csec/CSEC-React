@@ -1,0 +1,52 @@
+# A .YAML file is used to export DNS records to a
+# domain managed by Google Cloud. The format is
+# exclusive to Google Cloud DNS.
+
+---
+kind: dns#resourceRecordSet
+name: 'utacsec.org.'
+rrdatas:
+- '104.198.14.52'
+ttl: 3600
+type: A
+---
+kind: dns#resourceRecordSet
+name: 'utacsec.org.'
+rrdatas:
+- '1 aspmx.l.google.com.'
+- '5 alt1.aspmx.l.google.com.'
+- '5 alt2.aspmx.l.google.com.'
+- '10 alt3.aspmx.l.google.com.'
+- '10 alt4.aspmx.l.google.com.'
+- '15 3eq3zwytwqr5b6xfo3vmusfat2vam7q4x672ufi62xraywtb3woq.mx-verification.google.com.'
+ttl: 3600
+type: MX
+---
+kind: dns#resourceRecordSet
+name: 'utacsec.org.'
+rrdatas:
+- '"v=spf1 include:_spf.google.com ~all"'
+ttl: 3600
+type: SPF
+---
+kind: dns#resourceRecordSet
+name: 'utacsec.org.'
+rrdatas:
+- '"google-site-verification=B6C3GAw0c-3y7oXMWUaw00Jzk3jid41GebHmSTTlZNc"'
+- '"v=spf1 include:_spf.google.com ~all"'
+ttl: 3600
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: 'google._domainkey.utacsec.org.'
+rrdatas:
+- '"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwOav4MPvPb5A4UocjhsDpKHzk9iM01OzpkPo+/dT9iXK94aNcnAUkI7Z2fkrD+aOjW7uUivfm4nZimdHLo2wLZOMyB0bUr3SUKfgAudZVBQlI6OBGJMB3k07fA459OhtxHSVXQLuJJCikM9ScR33aMUN2+CwaMY8KgN9QYwR/k7MjNSGCyAXZviHd8wtKgN11" "PPOIOzxgD+DOHkdbf2GS/BLH/vTxRPQ1PBeN8hHIqdRb+h+fXVsakWoHwOZaJ+4LXfpvwLHANr4S+nfxYAyzyJBXV025IA0UxCn/4VrnUobPX4jybL9X2fXFhJLAbxUf5UVjjgfA9wt3F1Yv73jLQIDAQAB"'
+ttl: 3600
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: 'www.utacsec.org.'
+rrdatas:
+- 'mystifying-meninsky-280127.netlify.com.'
+ttl: 3600
+type: CNAME

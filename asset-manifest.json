@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CSEC-React/static/css/main.c3b5e2de.css",
-    "main.js": "/CSEC-React/static/js/main.cc35ceec.js",
+    "main.js": "/CSEC-React/static/js/main.e35cef51.js",
     "static/js/787.a0e11364.chunk.js": "/CSEC-React/static/js/787.a0e11364.chunk.js",
     "static/media/calendar.jpg": "/CSEC-React/static/media/calendar.c2113b9e68cf94d4a753.jpg",
     "static/media/Banner_1.png": "/CSEC-React/static/media/Banner_1.fdf37479fc571cbeddb6.png",
@@ -20,11 +20,11 @@
     "static/media/revicons.woff": "/CSEC-React/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/CSEC-React/index.html",
     "main.c3b5e2de.css.map": "/CSEC-React/static/css/main.c3b5e2de.css.map",
-    "main.cc35ceec.js.map": "/CSEC-React/static/js/main.cc35ceec.js.map",
+    "main.e35cef51.js.map": "/CSEC-React/static/js/main.e35cef51.js.map",
     "787.a0e11364.chunk.js.map": "/CSEC-React/static/js/787.a0e11364.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3b5e2de.css",
-    "static/js/main.cc35ceec.js"
+    "static/js/main.e35cef51.js"
   ]
 }

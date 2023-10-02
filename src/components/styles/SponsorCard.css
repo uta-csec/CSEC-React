@@ -48,17 +48,18 @@
 }
 
 .flipping-card .card-back p {
-  font-size: 18px;
+  font-size: 12px;
   margin-bottom: 10px;
+  color: black;
+}
+
+.flipping-card .card-back h2 {
+  color: black;
 }
 
 .flipping-card .card-back a {
   color: #007bff;
   text-decoration: none;
-}
-
-.card-back p {
-  color: black;
 }
 
 /* Extra small devices (phones, 600px and down) */

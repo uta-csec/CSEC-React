@@ -9,11 +9,12 @@ export function Footer() {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center  flex-column flex-sm-row">
+        <Row className="d-flex align-items-center justify-content-center flex-column flex-sm-row">
           {/* Logo */}
           <Col className="footer-section">
             <h4>CSEC</h4>
             <p>© 2023 CSEC</p>
+            <br></br>
           </Col>
 
           <Col className="footer-section">
@@ -54,6 +55,8 @@ export function Footer() {
                 <Twitter className="myIcon" />
               </a>
             </div>
+            <br></br>
+            <br></br>
           </Col>
         </Row>
       </Container>

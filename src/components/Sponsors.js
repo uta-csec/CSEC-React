@@ -1,8 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { SponsorCard } from "./SponsorCard";
 import "./styles/Sponsors.css";
-import UTA from "../assets/img/sponsors/uta.png";
-import ISACA from "../assets/img/sponsors/isaca.png";
+import UTA from "../assets/img/sponsors/CSE.png";
+import sponsorData from "../assets/sponsors.json";
 
 export function Sponsors() {
   return (
@@ -22,14 +22,8 @@ export function Sponsors() {
               <div className="sponsors-cards">
                 <SponsorCard
                   frontImage={UTA}
-                  backText="UTA text description"
-                  link="https://www.uta.edu/academics/schools-colleges/engineering"
-                />
-
-                <SponsorCard
-                  frontImage={ISACA}
-                  backText="ISACA text description"
-                  link="https://www.isaca.org"
+                  backText={sponsorData.CSE.Name}
+                  link={sponsorData.CSE.link}
                 />
               </div>
             </div>

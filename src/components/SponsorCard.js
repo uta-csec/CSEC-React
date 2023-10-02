@@ -18,7 +18,7 @@ export function SponsorCard({ frontImage, backText, link }) {
         <img src={frontImage} alt="Front" />
       </div>
       <div className="card-back">
-        <p>{backText}</p>
+        <h2>{backText}</h2>
         <a href={link} target="_blank" rel="noopener noreferrer">
           Go to Link
         </a>

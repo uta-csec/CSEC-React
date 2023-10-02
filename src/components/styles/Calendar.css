@@ -1,21 +1,25 @@
 .calendar-section {
-  background-color: black;
+  display: flex;
+  flex-direction: row;
+  background-image: url("../../assets/img/Calendar-bg.png") !important;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   padding: 15vh 0;
-  border: 1px solid white;
+}
+
+.horse img {
+  width: 40vw;
+  height: auto;
+  margin-top: 30vw;
+  animation: updown 3s linear infinite;
 }
 
 .calendar-info {
   display: flex;
   flex-direction: row;
   padding: 5vh 0;
-}
-
-.calendar-info img {
-  width: 25vw;
-  height: auto;
-  margin: 0 3rem;
-  border-radius: 1rem;
 }
 
 .calendar-section h2 {
@@ -46,13 +50,27 @@
   margin-top: 0.25rem;
 }
 
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .calendar-section h2 {
     font-size: var(--font-size-large);
   }
 
-  .calendar-info img {
+  .horse img {
     display: none;
   }
 }
@@ -63,15 +81,19 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .calendar-info img {
+  .horse img {
     display: none;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .calendar-info img {
+  .horse img {
     display: block;
+  }
+
+  .calendar-info {
+    margin-right: 15vw;
   }
 }
 

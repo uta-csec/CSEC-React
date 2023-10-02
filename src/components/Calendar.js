@@ -1,16 +1,18 @@
 import { Col, Container, Row, Card } from "react-bootstrap";
 import "./styles/Calendar.css";
 import { Calendar2Heart } from "react-bootstrap-icons";
-import calendar from "../assets/img/officers/calendar.jpg";
+import blackHole from "../assets/img/Horse-space.png";
 
 export default function Calendar() {
   return (
     <section className="calendar-section" id="calendar">
+      <div className="horse">
+        <img src={blackHole} alt="Blackhole horse" />
+      </div>
       <Container>
         <Row>
           <Col>
             <div className="calendar-info">
-              <img src={calendar} alt="Meeting pic" />
               <div>
                 <h2>Don't miss our activities!</h2>
                 <Card

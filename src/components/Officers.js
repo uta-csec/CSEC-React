@@ -66,7 +66,7 @@ export function Officers() {
                 <div className="item">
                   <img src={Hussein} alt="description" />
                   <h4>President</h4>
-                  <h5>Hussein Alkatheri</h5>
+                  <h5>Hussain Alkatheri</h5>
                   <a
                     href="https://www.linkedin.com/in/hussain-alkatheri/"
                     target="_blank"

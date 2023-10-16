@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./styles/Footer.css";
-import constants from "../assets/constants.json";
+import constants from "../assets/constants/footerData.json";
 
 // assets
 import { Discord, Instagram, Twitter } from "react-bootstrap-icons";

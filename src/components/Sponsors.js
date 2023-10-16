@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { SponsorCard } from "./SponsorCard";
 import "./styles/Sponsors.css";
 import UTA from "../assets/img/sponsors/CSE.png";
-import sponsorData from "../assets/sponsors.json";
+import sponsorData from "../assets/constants/sponsors.json";
 
 export function Sponsors() {
   return (

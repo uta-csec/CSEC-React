@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.9be2a8c8.css",
-    "main.js": "/static/js/main.8944c573.js",
+    "main.css": "/static/css/main.b3b2481d.css",
+    "main.js": "/static/js/main.4d92de09.js",
     "static/js/787.a0e11364.chunk.js": "/static/js/787.a0e11364.chunk.js",
     "static/media/calendar.jpg": "/static/media/calendar.c2113b9e68cf94d4a753.jpg",
-    "static/media/Horse-space.png": "/static/media/Horse-space.4f73312adc3e0d883af7.png",
+    "static/media/horseInfo.png": "/static/media/horseInfo.94c5eba9e007484e917c.png",
     "static/media/michi.png": "/static/media/michi.576d038960feac1cb458.png",
     "static/media/Sponsor-bg.png": "/static/media/Sponsor-bg.3de3154af17e42018de0.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -23,12 +23,12 @@
     "static/media/logo.png": "/static/media/logo.e668c91fe97c18818d44.png",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.9be2a8c8.css.map": "/static/css/main.9be2a8c8.css.map",
-    "main.8944c573.js.map": "/static/js/main.8944c573.js.map",
+    "main.b3b2481d.css.map": "/static/css/main.b3b2481d.css.map",
+    "main.4d92de09.js.map": "/static/js/main.4d92de09.js.map",
     "787.a0e11364.chunk.js.map": "/static/js/787.a0e11364.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9be2a8c8.css",
-    "static/js/main.8944c573.js"
+    "static/css/main.b3b2481d.css",
+    "static/js/main.4d92de09.js"
   ]
 }

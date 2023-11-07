@@ -1,9 +1,19 @@
-import { Col, Container, Row, Card } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import "./styles/Calendar.css";
-import { Calendar2Heart } from "react-bootstrap-icons";
-import blackHole from "../assets/img/Horse-space.png";
+import blackHole from "../assets/img/horseInfo.png";
+import CalendarCard from "./CalendarCard";
+import eventData from "../assets/constants/calendar.json";
+import CalendarTable from "./CalendarTable";
 
 export default function Calendar() {
+  const displayCalendar = () => {
+    if (Object.keys(eventData).length === 0) {
+      return <CalendarCard />;
+    } else {
+      return <CalendarTable />;
+    }
+  };
+
   return (
     <section className="calendar-section" id="calendar">
       <div className="horse">
@@ -15,26 +25,7 @@ export default function Calendar() {
             <div className="calendar-info">
               <div>
                 <h2>Don't miss our activities!</h2>
-                <Card
-                  style={{
-                    height: "fit-content",
-                    padding: "1rem 0",
-                    marginTop: "8%",
-                  }}
-                >
-                  <Card.Body>
-                    <div className="calendar-card">
-                      <div className="calendar-icon">
-                        <Calendar2Heart size={20} />
-                      </div>
-                      <div className="calendar-text">
-                        We will update this section on a weekly basis. So, be
-                        sure to check back regularly for new activities and
-                        learning opportunities.
-                      </div>
-                    </div>
-                  </Card.Body>
-                </Card>
+                {displayCalendar()}
               </div>
             </div>
           </Col>

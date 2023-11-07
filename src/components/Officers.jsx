@@ -9,7 +9,6 @@ import OfficersFile from "../assets/constants/officers.json";
 
 export function Officers() {
   let officersData = OfficersFile.officers;
-  let officerList = [];
 
   // Carousel controls
   const responsive = {
@@ -35,70 +34,48 @@ export function Officers() {
     },
   };
 
-  for (let officer in officersData) {
-    officerList.push(
-      <div className="item" key={officersData[officer]["title"]}>
+  const displayOfficers = () => {
+    return Object.values(officersData).map((officer) => (
+      <div className="item" key={officer.title}>
         <img
-          src={import(
-            `../assets/img/officers/${officersData[officer].pic}.jpg`
-          )}
+          src={require(`../assets/img/officers/${officer.pic}.jpg`)}
           alt="description"
         />
-        <h4>{officersData[officer]["title"]}</h4>
-        <h5>{officersData[officer]["officerName"]}i</h5>
-        <a
-          href={officersData[officer]["linkedIn"]}
-          target="_blank"
-          rel="noreferrer"
-        >
+        <h4>{officer.title}</h4>
+        <h5>{officer.officerName}</h5>
+        <a href={officer.linkedIn} target="_blank" rel="noreferrer">
           LinkedIn
         </a>
       </div>
-    );
+    ));
+  };
 
-    const displayOfficers = () => {
-      return Object.values(officersData).map((officer) => (
-        <div className="item" key={officer.title}>
-          <img
-            src={require(`../assets/img/officers/${officer.pic}.jpg`)}
-            alt="description"
-          />
-          <h4>{officer.title}</h4>
-          <h5>{officer.officerName}</h5>
-          <a href={officer.linkedIn} target="_blank" rel="noreferrer">
-            LinkedIn
-          </a>
-        </div>
-      ));
-    };
-
-    return (
-      // carousel section
-      <section className="officers">
-        {/* Carousel main container */}
-        <Container>
-          <Row>
-            <Col>
-              {/* Caurosel header and description */}
-              <div className="officer-bx">
-                <div style={{ padding: "1.5rem 0" }}>
-                  <h2>Meet Our Officers</h2>
-                  <p>These are the brilliant minds behind CSEC</p>
-                </div>
-
-                {/* Carousel component */}
-                <Carousel
-                  responsive={responsive}
-                  infinite={true}
-                  className="officer-slider"
-                >
-                  {displayOfficers()}
-                </Carousel>
+  return (
+    // carousel section
+    <section className="officers">
+      {/* Carousel main container */}
+      <Container>
+        <Row>
+          <Col>
+            {/* Caurosel header and description */}
+            <div className="officer-bx">
+              <div style={{ padding: "1.5rem 0" }}>
+                <h2>Meet Our Officers</h2>
+                <p>These are the brilliant minds behind CSEC</p>
               </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-    );
-  }
+
+              {/* Carousel component */}
+              <Carousel
+                responsive={responsive}
+                infinite={true}
+                className="officer-slider"
+              >
+                {displayOfficers()}
+              </Carousel>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
 }

@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.1ed838be.css",
-    "main.js": "/static/js/main.1ac1fc42.js",
+    "main.js": "/static/js/main.907b5897.js",
     "static/js/787.a0e11364.chunk.js": "/static/js/787.a0e11364.chunk.js",
+    "static/media/calendar.jpg": "/static/media/calendar.c2113b9e68cf94d4a753.jpg",
     "static/media/activities-bg.png": "/static/media/activities-bg.ce664baeab62e19f86b1.png",
     "static/media/Banner_1.png": "/static/media/Banner_1.fdf37479fc571cbeddb6.png",
     "static/media/Horse-space.png": "/static/media/Horse-space.4f73312adc3e0d883af7.png",
@@ -11,9 +12,10 @@
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/person-icon.png": "/static/media/person-icon.3a46af4d8c6c20137e50.png",
     "static/media/Calendar-bg.png": "/static/media/Calendar-bg.6d2cb67a28c0c5827523.png",
     "static/media/CSE.png": "/static/media/CSE.9d5120963cc0b6fc6b61.png",
+    "static/media/Brett.jpg": "/static/media/Brett.bf0b90bb139a41573776.jpg",
+    "static/media/Nicole.jpg": "/static/media/Nicole.bf0b90bb139a41573776.jpg",
     "static/media/Anderson.jpg": "/static/media/Anderson.a04beb6ce01b25e8fed7.jpg",
     "static/media/Monika.jpg": "/static/media/Monika.636c0ef21430d97ab966.jpg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -22,11 +24,11 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.1ed838be.css.map": "/static/css/main.1ed838be.css.map",
-    "main.1ac1fc42.js.map": "/static/js/main.1ac1fc42.js.map",
+    "main.907b5897.js.map": "/static/js/main.907b5897.js.map",
     "787.a0e11364.chunk.js.map": "/static/js/787.a0e11364.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ed838be.css",
-    "static/js/main.1ac1fc42.js"
+    "static/js/main.907b5897.js"
   ]
 }

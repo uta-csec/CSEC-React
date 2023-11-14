@@ -11,7 +11,7 @@
 
 .calendarTable {
   width: 100%;
-  table-layout: fixed;
+  table-layout: auto;
   text-align: center;
   color: black;
 }

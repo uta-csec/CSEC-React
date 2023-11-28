@@ -59,6 +59,24 @@
             "officerName": "Nicole Rodriguez",
             "linkedIn": "www.linkedin.com/in/nicoleceline",
             "pic": "Nicole"
+        },
+        "officer11": {
+            "title": "Social Media Officer",
+            "officerName": "Gino De Luna",
+            "linkedIn": "https://www.linkedin.com/in/gino-de-luna/",
+            "pic": "Gino"
+        },
+        "officer12": {
+            "title": "Event Planner",
+            "officerName": "Jeremiah Pitts",
+            "linkedIn": "https://www.linkedin.com/in/jeremiahpitts/",
+            "pic": "Jeremiah"
+        },
+        "officer13": {
+            "title": "CTF Officer",
+            "officerName": "Anne Nguyen",
+            "linkedIn": "https://www.linkedin.com/in/anne-h-nguyen/",
+            "pic": "Anne"
         }
     }
     

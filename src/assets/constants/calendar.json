@@ -2,17 +2,17 @@
     "events" : {
 
         "event1": {
-            "name": "Intro to Wi-Fi Cracking",
-            "location": "SWSH 225",
-            "date": "Nov 17th",
-            "time": "7:00 PM - 9:00 PM"
-        },
-
-        "event2": {
             "name": "Sabre x CSEC",
             "location": "SWSH 225",
             "date": "Nov 28th",
             "time": "5:00 PM - 7:00 PM"
+        },
+
+        "event2": {
+            "name": "Univ CTF 2023: Brains and Bytes",
+            "location": "hackthebox.com - Check CSEC discord for event link",
+            "date": "Dec 8th - 10th",
+            "time": "7:00 AM - 3:00 PM"
         }
     }
 }

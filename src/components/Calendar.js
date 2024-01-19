@@ -7,7 +7,7 @@ import CalendarTable from "./CalendarTable";
 
 export default function Calendar() {
   const displayCalendar = () => {
-    if (Object.keys(eventData).length === 0) {
+    if (Object.keys(eventData.events).length === 0) {
       return <CalendarCard />;
     } else {
       return <CalendarTable />;

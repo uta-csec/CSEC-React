@@ -30,12 +30,6 @@
             "linkedIn": "https://www.linkedin.com/in/rose-ramirez/",
             "pic": "Rose"
         },
-        "Data Sci. Officer": {
-            "title": "Data Sci. Officer",
-            "officerName": "Canyu Hankins",
-            "linkedIn": "https://www.linkedin.com/in/canyuhankins/",
-            "pic": "Canyu"
-        },
         "Graphics Officer": {
             "title": "Graphics Officer",
             "officerName": "Jocelyn Vazquez",
@@ -77,6 +71,12 @@
             "officerName": "Betim Hodza",
             "linkedIn": "https://www.linkedin.com/in/betim-hodza-17bb46253/",
             "pic": "Betim"
+        },
+        "Membership Officer 2": {
+            "title": "Membership Officer",
+            "officerName": "Devrat Patel",
+            "linkedIn": "https://www.linkedin.com/in/devratpatel/",
+            "pic": "Devrat"
         },
         "Director of Fundraising": {
             "title": "Director of Fundraising",
